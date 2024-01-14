@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* body{
+
+} */
+
+
+h1, h2, h3, h4{
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.hr-style{
+    border: 10px dotted white;
+    border-bottom: none;
+    width: 50px;
+    
+}
+
+header{
+    background-image: url(./images/pexels-krivec-ales-547114.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.nav-icon{
+    color: white;
+}
+
+.nav-link{
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+
+.nav-link:hover{
+    background: seagreen;
+    transform: scale(1.1);
+}
+
+/* features strat */
+
+#features{
+    padding: 5% 10%;
+    background: #AAD9BB;
+}
+
+.featuers-cal{
+    transition: .4s;
+}
+
+.featuers-cal:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+#aboutMe{
+    background-color: #AAD9BB;
+}
+
+#org-history{
+    padding: 5% 10%;
+}
+
+/* .basic-history{
+    transition: .4s;
+}
+
+.basic-history:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+} */
+
+.Certification span{
+    font-weight: 700;
+}
+
+.bar{
+    background-color: #AAD9BB;
+}
+
+.team{
+    background-color: #AAD9BB;
+}
+
+.card{
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(0.9);
+    box-shadow: 2px 6px 5px black;
+}
+
+.clint-review{
+    background-color: #AAD9BB;
+}
+
+.bg-img-1{
+    background-image: url('./images/pexels-foteros-352505.jpg');
+}
+
+.bg-img-2{
+    background-image: url('./images/pexels-sound-on-3394662-rs.jpg');
+}
+
+.bg-img-3{
+    background-image: url("./images/pexels-alex-andrews-1983037-rs.jpg");
+}
+
+.carousel-img{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact{
+    background-color: #AAD9BB;
+    padding: 2% 5%;
+}
+
+.fa-x-twitter:hover{
+    color: rgb(28, 206, 81);
+}
+
+.fa-telegram:hover{
+    color: rgb(230, 131, 17);
+}
+.fa-instagram:hover{
+    color: rgb(227, 158, 10);
+}
+.fa-whatsapp:hover{
+    color: rgb(28, 206, 81);
+}
+.fa-signal-messenger:hover{
+    color: rgb(223, 95, 15);
+}
+.fa-linkedin:hover{
+    color: rgb(28, 206, 135);
+}
+.fa-meta:hover{
+    color: rgb(206, 141, 28);
+}
+.fa-circle-up:hover{
+    color: rgb(228, 130, 18);
+}
